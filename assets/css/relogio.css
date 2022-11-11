@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .clock {
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:20px;
+    color: #fff;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    width: 250px;
+  }
