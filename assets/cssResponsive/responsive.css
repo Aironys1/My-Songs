@@ -1,10 +1,23 @@
 @media (max-width:600px) {
+    nav ul {
+        display: flex;
+        margin-left: 30px;
+    }  
+}
+
+@media (max-width:900px) {
+    header .logo{
+        margin: 20px;        
+    }
     nav{
         width: 100%;
     }
     nav ul {
         display: flex;
         flex-direction: column;
+        line-height:10px;
+        margin-bottom: 10px;
         
-    }
+    }  
 }
+
