@@ -9,6 +9,13 @@ body{
     overflow-x: hidden;
 }
 
+.aviso{
+    color: white;
+    text-align: center;
+}
+
+
+
 header{
     background-color:#000000;
     display: flex;
@@ -28,18 +35,6 @@ header .logo{
 
 }
 
-
-/*
-nav{
-    width: 50%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 20px;
-
-}
-
-*/
-
 ul{
     display: flex;
     justify-content: center;
@@ -49,15 +44,17 @@ ul{
 
 ul li {
     list-style: none;
-    padding:15px;
-    max-width: 200px;
+    max-width: 270px;
+    padding:20px;
     border-radius:20px;
     border-bottom: 1px solid yellow;
-    border-right: 3px solid yellow;
+    border-right: 3px solid rgb(255, 255, 255);
 
 }
 ul li:hover {
-    background-color: #1e1d1d;
+    background-color: #191818;
+    padding:20px;
+
    
 
     
@@ -65,8 +62,14 @@ ul li:hover {
 
 ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffea00;
     font-size: 1.3rem;
+   
+}
+ul li a:hover {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
    
 }
 
@@ -86,7 +89,7 @@ section div{
 
 section div h2{
     font-size: 1.3rem;
-    color: #ffffff;
+    color:#ffea00;
     padding-top: 20px;
     text-align: center;
 }
@@ -97,6 +100,42 @@ section div p{
     font-size: 1.1rem;
     text-align: justify;
 }
+
+
+
+.playlist div img{
+    max-height: 600px;
+    width: 100%;
+    
+}
+
+.galeriaMusica{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.playlist .musica{
+   display:flex;
+   flex-direction:column;
+   border: 1px solid #ffea00;
+   padding: 10px;
+   border-radius:20px;
+   margin-bottom: 10px;
+
+}
+
+.musica p{
+    text-align: center;
+}
+
+.contatos p{
+    text-align: center;
+    
+}
+
 
 
 
@@ -126,6 +165,8 @@ footer  a {
     
 }
 footer  a:hover {
+    text-decoration: none;
+    color: white;
     border-radius: 100%;
     border-bottom: 1px solid yellow;
     border-right: 3px solid yellow;
@@ -134,12 +175,7 @@ footer  a:hover {
 
 
 /*** MÚSICAS ***/
-section .playlist{
-    height: 500px;
-    background-image: url('../imagens/logo.png');
-    background-attachment: fixed;
-    background-position: center;
-}
+
 
 section audio{
     display: block;

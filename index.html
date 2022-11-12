@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5PNMDF4');</script>
+    })(window,document,'script','dataLayer','GTM-5PNMDF4');
+    </script>
     <!-- End Google Tag Manager -->
+
+    <!--CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/geral.css">
     <link rel="stylesheet" href="assets/css/relogio.css">
     <link rel="stylesheet" href="assets/cssResponsive/responsive.css">
+
     <title>My Songs Aironn</title>
 </head>
 <body>
+
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PNMDF4"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <p class="aviso">Em desenvolvimento</p>
     <div class="container">
         <div class="clock"></div>
       </div>
+
+<!-- Container Geral -->
+<div class="container-fluid">
+
     <header id="topo">
          
        
         <nav>
+            
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a style="color:white ;" href="#">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#composicoes">Composições</a></li>
                 <li><a href="#musica">Músicas</a></li>
@@ -37,16 +52,16 @@
             </ul>
         </nav>
         <div>
-            <img class="logo" src="assets/imagens/logo.png" alt="Logo">
+            <img class="img-fluid logo " src="assets/imagens/logo.png" alt="Logo">
         </div>
     </header>
 
     <section>
         <div>
             <h2 id="sobre">Sobre</h2>
-                <p>Meu nome é Aironys Garrido, bacharel em ciência da computação com especialização em desenvolvimento web. Neste portfólio trago um pouco de quem sou: Gosto muito da área de tecnologia e música. Aos 12 anos de idade iniciei a aprendizagem em partitura, foi o meu primeiro desafio, ver aquele monte de partituras e símbolos, (achei que não iria conseguir aprender a música). A verdade era que eu não acreditava, que poderia aprender, porém tenho como qualidade a persistência e aprendi! Meu instrumento oficial é o TROMPETE, falo delo em um tópico abaixo, aqui na página.Também toco um pouco de CLARINETE, SAX e FLAUTA-DOCE. Gosto de estudar alguns instrumentos parentes do TROMPETE, exemplo: TROMPETE e BOMBARDINO. O instrumento que sempre me acompanhou é a FLAUTA-DOCE, por ser o primeiro instrumento que tive mais prática, me considero mais apto a tocar, o segundo é o o trompete. Também estou na área de desenvolvimento de software, que é a minha segunda paixão. Venho desenvolvendo o meu site em HTML,CSS, e JS. Há, não deixem de conferir o meu canal pessoal, como eu também sou compositor, me aventurei cantando, admito que não é o meu forte, mas sempre há como melhorar. Criei um menu inicial, onde clicando nele vai te levar para a parte dos temas; “música, composições, certificados e contatos”. No fim do site tem um botão de voltar para o “home”. Lembrando que é um dos meus primeiros sites, e acredito que dia após dia irei melhorar, essa é a primeira versão, vou ficar atualizando e buscando melhorias para a segunda versão do site. Agradeço a sua atenção, o tempinho que tirou para acompanhar o meu trabalho.
-
-                    Texto: Aironys Garrido</p>
+            <p class="text-center"> Meu nome é Aironys Garrido, (Aironn). Por aqui irei divulgar algumas composições e algumas músicas que foram gravadas pofissionalmente e caseiras. Um pouco de música pra vocês.  <br> <br>
+            Obrigado!
+             </p>
         </div>
     </section>
 
@@ -61,24 +76,41 @@
     <section>
         <div>
             <h2 id="musica">Músicas</h2>
+
             <h3>Produção Profissional</h3>
-            <div class="playlist">
-                <audio controls autoplay>
-                    <source src="assets/mp3/Arlequina Baladeira Mc Aironn .mp3" type="audio/mpeg" title="Arlequina Baladeira Mc Aironn">
-                    Your browser does not support the audio element.
-                </audio>
-
-                <audio controls autoplay>
-                    <source src="assets/mp3/Do Jeito Que Ela Gosta Mc Aironn .mp3" type="audio/mpeg" title="Do Jeito Que Ela Gosta Mc Aironn">
-                    Your browser does not support the audio element.
-                </audio>
-
-                <audio controls autoplay>
-                    <source src="assets/mp3/No Beco Do Helipa Mc Aironn .mp3" type="audio/mpeg" title="Do Jeito Que Ela Gosta Mc Aironn">
-                    Your browser does not support the audio element.
-                </audio>
+            <div  class="playlist">
+                <div class="container-fluid">
+                    <img class="fluid" src="assets/imagens/banner.jpg" alt="banner">
+                </div>
                 
-               
+                <div class="galeriaMusica">
+                    <div class="musica">
+                        <p>Arlequina Baladeira</p>
+                        <audio controls autoplay>
+                            <source src="assets/mp3/Arlequina Baladeira Mc Aironn .mp3" type="audio/mpeg" title="Arlequina Baladeira Mc Aironn">
+                            
+                        </audio>
+                    </div>
+    
+                    <div class="musica">
+                        <p>Do Jeito Que Ela Gosta</p>
+                        <audio controls autoplay>
+                            <source src="assets/mp3/Do Jeito Que Ela Gosta Mc Aironn .mp3" type="audio/mpeg" title="Do Jeito Que Ela Gosta Mc Aironn">
+                            
+                        </audio>
+                    </div>
+    
+                    <div class="musica">
+                        <p>No Beco Do Helipa</p>
+                        <audio controls autoplay>
+                            <source src="assets/mp3/No Beco Do Helipa Mc Aironn .mp3" type="audio/mpeg" title="No Beco Do Helipa Mc Aironn">
+                            
+                        </audio>
+                    </div>
+                </div>
+
+                    
+                
             </div>
         </div>
     </section>
@@ -87,8 +119,13 @@
     <section>
         <div>
             <h2 id="contato">Contato</h2>
+            <div class="contatos">
+                <p>Tel: 11 957086049</p>
+                <p>E-mail: aironys1@hotmail.com</p>
+            </div>
         </div>
     </section>
+</div>
 
     <footer>
         <address>
@@ -98,6 +135,14 @@
             <a href="#topo">Voltar</a>
         </div>
     </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="assets/js/relogio.js"></script>
 </body>
