@@ -9,6 +9,16 @@ body{
     overflow-x: hidden;
 }
 
+header{
+    background-image:url(../imagens/banner.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:bottom;
+    height:calc(100vh - 300px);
+}
+
+
 .aviso{
     color: white;
     text-align: center;
