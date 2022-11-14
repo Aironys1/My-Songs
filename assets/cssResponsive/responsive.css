@@ -1,7 +1,10 @@
 @media (max-width:600px) {
+    h1{
+        font-size: 2.5rem;
+    }
     header .logo{
-        width: 150px;
-        height: 150px;      
+        width: 100px;
+        height: 100px;      
     }
 
     nav ul {
@@ -12,6 +15,11 @@
     .container-fluid{
         padding: 0;
         margin: 0;
+    }
+
+ 
+    .composicoes .letras{
+        width: 150px;
     }
  
 }

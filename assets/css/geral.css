@@ -27,6 +27,8 @@ header{
 .composicoes{
     color: white;
     text-align: center;
+    background-color: #000000;
+    border-radius: 20px;
 }
 
 .composicoes a{
@@ -41,12 +43,19 @@ header{
     border-bottom: 3px solid #ffffff;
 }
 
+.gifCapa{
+    background-image: url(../videos/gifCapa.gif) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150px;
+}
+
 h1{
     font-family: fantasy;
     font-size:3.8rem;
     color: #5d5a5a;
     text-shadow: 5px 5px 5px white;
-    margin: 60px;
 }
 
 
@@ -82,8 +91,8 @@ ul li {
     max-width: 270px;
     padding:20px;
     border-radius:20px;
-    border-bottom: 1px solid yellow;
-    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 2px solid yellow;
+    border-right: 5px solid rgb(255, 255, 255);
 
 }
 ul li:hover {
