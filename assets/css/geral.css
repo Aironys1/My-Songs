@@ -186,9 +186,7 @@ section div p{
 }
 
 .albumSpotify{
-    display: block;
-    max-width: 900px;
-    margin: auto;
+    
     border-radius: 30px;
 }
 
